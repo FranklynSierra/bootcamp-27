@@ -1,0 +1,32 @@
+
+.seccion{
+    background-color: darkslategray;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo{
+    background-color: #fff;
+    padding: 1rem;
+}
+.parrafo.dragging{
+    opacity: 0.3;
+}
+.eliminar{
+    padding: 1rem;
+    margin: 1rem;
+    border: 4px dashed #ddd;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+ 
+}
+h1{
+    color: #ccc;
+    font-size: 2rem;
+    text-align: center;
+}
+
