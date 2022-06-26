@@ -1,6 +1,7 @@
 const parrafos=document.querySelectorAll('.parrafo');
 const secciones=document.querySelectorAll('.seccion');
 
+
 parrafos.forEach(parrafo=>{
 parrafo.addEventListener('dragstart',e=>{
 console.log('drag')
@@ -22,14 +23,15 @@ secciones.forEach(seccion=>{
     })
     seccion.addEventListener('drop',e=>{
 
-
+       
       const id_parrafo=e.dataTransfer.getData('id')
       const parrafo=document.getElementById(id_parrafo);
-      seccion.appendChild(parrafo)
+      seccion.remove(parrafo)
        
     })
     
 })
+
 
 
 

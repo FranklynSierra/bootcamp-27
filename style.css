@@ -12,7 +12,7 @@
 .parrafo.dragging{
     opacity: 0.3;
 }
-.eliminar{
+#eliminar{
     padding: 1rem;
     margin: 1rem;
     border: 4px dashed #ddd;
